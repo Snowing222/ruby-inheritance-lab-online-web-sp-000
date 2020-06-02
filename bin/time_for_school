@@ -22,8 +22,7 @@ puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' fr
 jim=User.new
 jim.first_name="Jim"
 jim.last_name="Chen"
-jim.learn(some_knowledge)
-puts "Steve just learned this important knowledge: '#{jim.knowledge.first}' from Avi"
+
 
 steve.learn(avi.teach.sample)
 puts "Steve just learned this important knowledge: '#{steve.knowledge[1]}' from Avi"
